@@ -1,0 +1,170 @@
+<!DOCTYPE <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+    <style type="text/css">
+    body{
+        background-color:#696a92; 
+    }
+    </style>
+</head>
+<body>
+    <div id="dataDiv"></div>
+    <script type="text/javascript">
+/*function dodaj(argument1,argument2=100)
+{
+    return argument1+argument2;
+}
+function dzialanie(argument1,argument2,operator)
+{
+switch(operator)
+{
+    case "+":
+    {
+return argument1+argument2;
+    } 
+    case "-":
+    {
+        return argument1-argument2;
+    }
+    case "*":
+    {
+        return argument1*argument2;
+    }
+    case "/":
+    {
+        return argument1/argument2;
+    }
+}
+}
+function max(arg1,arg2)
+{
+    if(arg1>arg2)
+    {
+        return arg1;
+    }
+    else
+    {
+        return arg2;
+    }
+}
+function rownaniekwadratowe(arg1,arg2,arg3)
+{
+if(arg1==0)
+{
+    alert("rownanie linowe");
+    if(arg2==0)
+    {
+        alert("brak miejsc zerowych");
+    }
+    else
+    {
+        alert("Miejsce zerowe to" + (arg3/(-arg2)));
+    }
+}
+else
+{
+    var delta = arg2*arg2 - 4*arg1*arg3;
+    alert("delta:" + delta );
+    if(delta<0)
+    {
+        alert("brak miejsc zerowych");
+    }
+    else if (delta == 0)
+    {
+        alert ("Miejsce zerowe w punkcie" + ((-arg2)/(2*arg1)));
+    }
+    else{
+        alert ("Miejsca zerowe w punktach" + ((-arg2)-math.sqrt(delta))/(2*arg1) + "i " + ((-arg2)+math.sqrt(delta))/(2*arg1) );
+    }
+}
+}
+function potega(arg1,arg2)
+{
+    var wynik =1;
+    for(i=0;i<arg2;i++)
+    {
+        wynik*=arg1;
+    }
+    alert("Wynik potegowania to:" + wynik);
+}
+//rownaniekwadratowe(2,4,2);
+//potega(2,0);
+var dataDiv = document.getElementById("dataDiv");
+ var str1 = "123";
+ var str2 = "345";
+dataDiv.innerHTML = parseInt("1010",2);
+var url = "http://mojadomena.com/dane.php?";
+var tekst = "luj ogłuszacz";
+tekst = encodeURIComponent(tekst);
+alert(tekst);
+alert(decodeURIComponent(tekst));
+document.write(escape(decodeURIComponent(tekst)));
+function func()
+{
+    alert("To jest funkcja func");
+    return 0;
+}
+document.write(eval("(6+7*2)/5"));
+document.write(eval("func();"));
+document.write(Math.PI);
+function duplicate(arg)
+{
+return arg + arg;
+}
+document.write(duplicate("abc"));
+document.write(duplicate(23));
+
+function randomvalue(arg1,arg2)
+{
+    arg1 = parseInt(arg1);
+    arg2 = parseInt(arg2);
+    if(isNaN(arg1) | isNaN (arg2))
+    {
+        alert("Nie podales prawidlowej liczby");
+        return 0;
+        
+    }
+    var value = Math.floor(Math.random() * ((Math.max(arg1,arg2)) - Math.min(arg1,arg2)+1)) + Math.min(arg1,arg2);
+    return value;
+}
+document.write(randomvalue(32,44));
+
+function ceilfloor(arg1,arg2)
+{
+    if(arg1 > arg2)
+    {
+        return Math.floor(arg2);
+    }
+    else if (arg1==arg2)
+    {
+        return Math.ceil(arg2);
+    }
+    else
+    {
+        return Math.ceil(arg1);
+    }
+}
+document.write(ceilfloor(6.3,5.6));
+*/
+var osoba = {
+    "imie" : "Anna",
+    "nazwisko" : "Kowalska",
+    }
+    document.write(osoba.imie);
+    var obiekt = {};
+    obiekt.x = 100;
+    obiekt.y =200;
+    for(var indeks in osoba)
+    {
+        document.write(indeks);
+    }
+    </script>
+    <p>Akapit</p>
+</body>
+</html>
